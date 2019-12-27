@@ -1,4 +1,4 @@
-#include "Vector.h"
+#include "vector.h"
 #include <stdio.h>
 
 typedef struct Vector Vector;
