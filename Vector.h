@@ -40,7 +40,7 @@ int vector_value(struct Vector *, int);
 int vector_increment(struct Vector *);
 
 //数组排序（任意一种排序方式均可）;0:成功;-1:参数1错误
-int vector_sort(struct Vector *, int (*)(int, int));
+int vector_sort(struct Vector *, int (*)(const void *, const void *));
 
 //数组查找元素;非负:成功;-1:参数1错误;-2:未找到
 int vector_find(struct Vector *, int);
